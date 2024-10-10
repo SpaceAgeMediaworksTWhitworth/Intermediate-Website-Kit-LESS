@@ -5,13 +5,15 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #ffba19;
-    --primaryLight: #ffd675;
-    --secondary: #001f3f;
-    --secondaryLight: #001f3f;
+    --primary: #0047bd;
+    --primaryLight: #266ee1;
+    --secondary: #29aae3;
+    --secondaryLight: #69c3ea;
+    --specialOrange: #f18425;
+    --specialOrangeLight: #ef994e;
     --headerColor: #1a1a1a;
-    --bodyTextColor: #4e4b66;
-    --bodyTextColorWhite: #fafbfc;
+    --bodyTextColor: #4E4B66;
+    --bodyTextColorWhite: #FAFBFC;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
@@ -62,7 +64,7 @@
     font-size: 1rem;
     line-height: 3.125em;
     font-weight: bold;
-    color: #000;
+    color: #fff;
     transition: color 0.3s;
     transition-delay: 0.1s;
     text-align: center;
@@ -81,7 +83,7 @@
     content: "";
     opacity: 1;
     display: block;
-    background-color: #000;
+    background-color: var(--primaryLight);
     height: 100%;
     width: 0;
     transition: width 0.3s;

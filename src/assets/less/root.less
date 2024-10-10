@@ -8,20 +8,20 @@
 @media only screen and (min-width: 0rem) {
     // Website colors
     :root {
-        --primary: #ffba19;
-        --primaryLight: #ffd675;
-        --secondary: #001f3f;
-        --secondaryLight: #001f3f;
+        --primary: #0047bd;
+        --primaryLight: #266ee1;
+        --secondary: #29aae3;
+        --secondaryLight: #69c3ea;
+        --specialOrange: #f18425;
+        --specialOrangeLight: #ef994e;
         --headerColor: #1a1a1a;
-        --bodyTextColor: #4e4b66;
-        --bodyTextColorWhite: #fafbfc;
-
+        --bodyTextColor: #4E4B66;
+        --bodyTextColorWhite: #FAFBFC;
         /* 13px - 16px */
         --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
         /* 31px - 49px */
         --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
         --bodyFontSize: 1rem;
-
         /* 60px - 100px top and bottom */
         --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
     }
@@ -75,7 +75,7 @@
         font-weight: bold;
 
         // Transition Properties
-        color: #000;
+        color: #fff;
         transition: color 0.3s;
         transition-delay: 0.1s;
         text-align: center;
@@ -95,7 +95,7 @@
             content: "";
             opacity: 1;
             display: block;
-            background-color: #000;
+            background-color: var(--primaryLight);
             height: 100%;
 
             //Transition properties

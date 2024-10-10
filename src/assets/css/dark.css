@@ -22,6 +22,16 @@
   body.dark-mode h6 {
     color: #fff;
   }
+  body.dark-mode .cs-topper {
+    color: var(--specialOrange);
+  }
+  body.dark-mode .cs-button-solid {
+    background-color: var(--specialOrange);
+    color: #1d1d1d;
+  }
+  body.dark-mode .cs-button-solid:before {
+    background-color: var(--specialOrangeLight);
+  }
   body.dark-mode .light {
     display: none;
   }
